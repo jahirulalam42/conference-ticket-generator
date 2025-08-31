@@ -1,12 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Generator</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div class="first">Conference Ticket Generator.</div>
-</body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <div>
+        <h3>Coding Conf</h3>
+        <h1>
+          Your Journey to Coding Conf <br />
+          2025 Starts Here!
+        </h1>
+        <p>Secure your spot at next year's biggest coding conference</p>
+      </div>
+
+      <form>
+        <label for="avatar">Upload Avatar</label><br />
+        <input type="image" src="" alt="Submit" width="48" height="48" />
+
+        <label for="name">Full name:</label><br />
+        <input type="text" id="name" name="name" />
+
+        <label for="email">Email Address</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="example@email.com"
+        />
+
+        <label for="github">Github Username</label><br />
+        <input
+          type="text"
+          id="github"
+          name="github"
+          placeholder="@yourusername"
+        />
+
+        <label for="generate">Generate My Ticket</label><br />
+        <input type="button" id="generate" value="Generate My Ticket"/>
+      </form>
+    </div>
+  </body>
 </html>
