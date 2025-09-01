@@ -1,3 +1,43 @@
 /* body {
   background-image: url("./assets/images/background-desktop.png");
 } */
+
+.heading {
+  display: flex;
+  width: full;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: large;
+}
+
+.form-body {
+  display: flex;
+  width: full;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 2rem;
+  border: 2px solid blue;
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  font-size: smaller;
+  gap: 6px;
+}
+
+.form-group input {
+  height: 2rem;
+  width: 20rem;
+  border-radius: 10px;
+}
+
+.bg-button {
+  background-color: rgba(255, 102, 61, 0.8);
+  border: none;
+  font-weight: bolder;
+}
