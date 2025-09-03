@@ -41,15 +41,28 @@ body {
   width: 20rem;
   border-radius: 10px;
   border: 1px solid gray;
+  background-color: rgba(255, 255, 255, 0.1);
 }
 
-.bg-button {
+.form-group input.bg-button {
   background-color: rgba(255, 102, 61, 0.8);
   border: none;
   font-weight: bolder;
 }
 
 .input-upload {
+  display: flex;
+  width: 20rem;
   border: 2px dashed gray;
-  height: 50px;
+  border-radius: 8px;
+  height: 6rem;
+  padding: 10px;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 5px;
 }
+
+
