@@ -10,7 +10,9 @@
   <body>
     <div>
       <div class="heading">
-        <h3>Coding Conf</h3>
+        <div class="logo">
+          <img src="./assets/images/logo.svg" />
+        </div>
         <h1>
           Your Journey to Coding Conf <br />
           2025 Starts Here!
@@ -18,17 +20,19 @@
         <p>Secure your spot at next year's biggest coding conference</p>
       </div>
 
-      <form class="form-body">
+      <form class="form-body" action="./pages/output.html">
         <div class="form-group">
+          <label for="avatar">Upload Avatar</label>
           <label for="avatar" class="input-upload"
-            ><span><img src="./assets/images/icon-upload.svg" /></span>Drag and
-            drop or click to upload</label
+            ><span class="upload-icon"
+              ><img src="./assets/images/icon-upload.svg" /></span
+            >Drag and drop or click to upload</label
           >
           <input type="file" id="avatar" accept="image/*" hidden />
         </div>
 
         <div class="form-group">
-          <label for="name">Full Name:</label>
+          <label for="name">Full Name</label>
           <input type="text" id="name" name="name" />
         </div>
 
@@ -54,13 +58,20 @@
 
         <div class="form-group">
           <input
-            type="button"
+            type="submit"
             class="bg-button"
             id="generate"
             value="Generate My Ticket"
           />
         </div>
       </form>
+
+      <div class="pattern-bottom">
+        <img src="./assets/images/pattern-bottom.svg" alt="pattern-bottom" />
+      </div>
+      <div class="pattern-top">
+        <img src="./assets/images/pattern-top.svg" alt="pattern-top" />
+      </div>
     </div>
   </body>
 </html>

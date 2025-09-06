@@ -3,6 +3,10 @@ body {
   color: lightgray;
 }
 
+.logo {
+  margin-top: 2rem;
+}
+
 .heading {
   display: flex;
   width: full;
@@ -26,7 +30,6 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 2rem;
-  border: 2px solid blue;
 }
 
 .form-group {
@@ -63,6 +66,25 @@ body {
   align-items: center;
   flex-direction: column;
   gap: 5px;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.upload-icon {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 4px;
+  border-radius: 6px;
+}
+
+.pattern-bottom {
+  position:absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.pattern-top {
+  position: absolute;
+  top: 5rem;
+  right: 0;
 }
 
 
