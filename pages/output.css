@@ -37,8 +37,9 @@ body {
 
 .ticket-card {
   border: 2px solid red;
-  width: 25%;
-  height: full;
+  width: 22%;
+  height: 20vh;
+  padding: 1rem;
   background-image: url("/assets/images/pattern-ticket.svg");
   background-repeat: no-repeat;
   background-position: center;
@@ -47,7 +48,6 @@ body {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem;
 }
 
 .avatar {
@@ -58,4 +58,35 @@ body {
 
 .generate {
   rotate: 90deg;
+}
+
+.ticket-card-info {
+  border: 2px solid green;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.date-location {
+  font-size: smaller;
+  padding-left: 3rem;
+}
+
+.ticket-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.email-ticket {
+  font-size: smaller;
+}
+
+.name-ticket {
+  font-size: large;
+}
+
+.ticket-info-info {
+  display: flex;
+  flex-direction: column;
 }
