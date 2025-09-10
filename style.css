@@ -90,8 +90,51 @@ body {
   left: 0;
 }
 
+.pattern-bottom-mobile {
+  display: none;
+}
+
 .pattern-top {
   position: absolute;
   top: 5rem;
   right: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-image: url(/assets/images/background-mobile.png);
+    height: 100vh;
+    width: 100%;
+  }
+
+  .pattern-bottom {
+    display: none;
+  }
+
+  .pattern-bottom-mobile {
+    display: block;
+    position: relative;
+    bottom: 0;
+    left: 0;
+  }
+
+  .pattern-bottom-mobile img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+  }
+
+  .pattern-top img {
+    position: relative;
+    top: 0;
+    right: 0;
+    height: 50%;
+    width: 50%;
+    object-fit: cover;
+  }
+
+  .mobile-padding {
+    padding: 6px;
+    box-sizing: border-box;
+  }
 }
